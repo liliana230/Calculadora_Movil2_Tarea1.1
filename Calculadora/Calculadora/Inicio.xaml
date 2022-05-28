@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.Inicio">
+    <ContentPage.Content>
+        <StackLayout Background="white"
+            Margin="0,35,10,0">
+            <Image Source="num.jpg"
+                   HeightRequest="190"
+                   WidthRequest="170"
+                   HorizontalOptions="CenterAndExpand"
+                   Aspect="Fill"/>
+
+            <Button x:Name="btnini" Text="INICIAR CALCULADORA" Clicked="btnini_Clicked" BackgroundColor="LightBlue"></Button>
+            <Image Source="cal.jpg"
+                   HeightRequest="350"
+                   WidthRequest="420"
+                   HorizontalOptions="CenterAndExpand"
+                   Aspect="Fill"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

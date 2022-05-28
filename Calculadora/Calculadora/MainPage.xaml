@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="PaleVioletRed" Padding="0" CornerRadius="0">
+            <Label Text="Calculadora" FontAttributes="Italic"  HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+        
+        </Frame>
+
+    <Label Text="Numero1:" FontSize="Medium" Padding="30,10,30,10" TextColor="Black"/>
+        <Entry Placeholder="" Keyboard="Numeric" x:Name="num1" Margin="40,0,40,0" TextColor="Black"/>
+        <Label Text="Numero2:" FontSize="Medium" Padding="30,0,30,0" TextColor="Black"/>
+        <Entry Placeholder="" Keyboard="Numeric" x:Name="num2" Margin="40,0,40,0" TextColor="Black"/>
+        <Image Source="cal.jpg"
+                   HeightRequest="130"
+                   WidthRequest="130"
+                   HorizontalOptions="CenterAndExpand"
+                   Aspect="Fill"/>
+        <Button Text="SUMAR" x:Name="btnsuma" Clicked="btnsuma_Clicked" BackgroundColor="Gainsboro"></Button>
+        <Button Text="RESTAR" x:Name="btnresta"  Clicked="btnresta_Clicked" BackgroundColor="Gainsboro"></Button>
+        <Button Text="MULTIPLICAR" x:Name="btnmultiplicacion" Clicked="btnmultiplicacion_Clicked"  BackgroundColor="Gainsboro"></Button>
+        <Button Text="DIVIDIR" x:Name="btndivision"  Clicked="btndivision_Clicked" BackgroundColor="Gainsboro"></Button>
+        
+    </StackLayout>
+    
+ 
+</ContentPage>
