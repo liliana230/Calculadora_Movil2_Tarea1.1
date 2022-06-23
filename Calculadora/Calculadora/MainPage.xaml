@@ -22,7 +22,7 @@
         <Button Text="RESTAR" x:Name="btnresta"  Clicked="btnresta_Clicked" BackgroundColor="Gainsboro"></Button>
         <Button Text="MULTIPLICAR" x:Name="btnmultiplicacion" Clicked="btnmultiplicacion_Clicked"  BackgroundColor="Gainsboro"></Button>
         <Button Text="DIVIDIR" x:Name="btndivision"  Clicked="btndivision_Clicked" BackgroundColor="Gainsboro"></Button>
-        
+
     </StackLayout>
     
  

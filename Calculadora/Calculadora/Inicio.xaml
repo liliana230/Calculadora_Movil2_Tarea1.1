@@ -13,10 +13,11 @@
 
             <Button x:Name="btnini" Text="INICIAR CALCULADORA" Clicked="btnini_Clicked" BackgroundColor="LightBlue"></Button>
             <Image Source="cal.jpg"
-                   HeightRequest="350"
-                   WidthRequest="420"
+                   HeightRequest="290"
+                   WidthRequest="400"
                    HorizontalOptions="CenterAndExpand"
                    Aspect="Fill"/>
+            <Label Text="Liliana Hernandez y Delbert Lira" TextColor="Black" HorizontalOptions="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
